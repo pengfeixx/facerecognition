@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libfacerecognition=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/include/libifacerecognition
+
+Name: facerecognition
+Description: deepin face recognition plugins
+Version: @PROJECT_VERSION@
+Libs: -lfacerecognition
+Cflags: -I${includedir}
+

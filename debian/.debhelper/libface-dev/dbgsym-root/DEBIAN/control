@@ -1,0 +1,12 @@
+Package: libface-dev-dbgsym
+Source: libface
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 54
+Depends: libface-dev (= 1.0.0)
+Section: debug
+Priority: optional
+Description: debug symbols for libface-dev
+Build-Ids: 25dc33932bf0bb881b6b4afe115a1ae6e7fe8527

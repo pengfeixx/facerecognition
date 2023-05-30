@@ -1,0 +1,4 @@
+debian/tmp/usr/include/libfacerecognition/face.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libfacerecognition.so.0.1
+debian/tmp/usr/lib/x86_64-linux-gnu/libfacerecognition.so.0.1.0
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libfacerecognition.pc

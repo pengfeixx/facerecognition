@@ -1,0 +1,11 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/libfacerecognition.so
+debian/tmp/usr/share/facerecognition/models/detection.bin
+debian/tmp/usr/share/facerecognition/models/detection.param
+debian/tmp/usr/share/facerecognition/models/facefeature.bin
+debian/tmp/usr/share/facerecognition/models/facefeature.param
+debian/tmp/usr/share/facerecognition/models/livedetection.bin
+debian/tmp/usr/share/facerecognition/models/livedetection.param
+debian/tmp/usr/share/facerecognition/models/liveness_1.bin
+debian/tmp/usr/share/facerecognition/models/liveness_1.param
+debian/tmp/usr/share/facerecognition/models/liveness_2.bin
+debian/tmp/usr/share/facerecognition/models/liveness_2.param

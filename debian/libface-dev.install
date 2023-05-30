@@ -1,0 +1,3 @@
+usr/include/libfacerecognition/*.h
+usr/lib/*/libfacerecognition.so.*
+usr/lib/*/pkgconfig/libfacerecognition.pc

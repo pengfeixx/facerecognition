@@ -1,0 +1,4 @@
+libface-dev-dbgsym_1.0.0_amd64.deb debug optional automatic=yes
+libface-dev_1.0.0_amd64.deb utils optional
+libface_1.0.0_amd64.buildinfo utils optional
+libface_1.0.0_amd64.deb utils optional
