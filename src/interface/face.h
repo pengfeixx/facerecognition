@@ -11,16 +11,19 @@ public:
     Face();
     ~Face();
 
-    /**
-     * @brief Get the Facial Range object
-     * 
-     * @return cv::Rect 
-     */
-    cv::Rect getFacialRange(const cv::Mat &image);
+    std::vector<cv::Rect> getFacialRange(const cv::Mat &image);
+    std::vector<FaceBox> getAllFaces(const cv::Mat &image);
+
+    std::vector<double> getEigenvalue(const cv::Mat &image);
+
+    bool isSamePerson(const cv::Mat &image1, const cv::Mat &image2);
 
     bool isliving(const cv::Mat &image);
 
     inline void setThreshold(const float thre);
+
+private:
+    double calculateSimilarity(const std::vector<double> &eigenvalue1, const std::vector<double> &eigenvalue2);
 
 private:
     FaceLiveness* m_faceLiveness;        //人脸活体检测
